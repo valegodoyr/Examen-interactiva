@@ -11,10 +11,10 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
 body {
 	--color-text: #ff00c4;
-	--color-bg: #1c1423;
+	--color-bg: #000000;
 	--color-link: #59545e;
 	--color-link-hover: #fff;
-	--color-slide-text: #fff;
+	--color-slide-text: rgb(255, 0, 0);
 	--color-nav: #fff;
 	--font-trail-weight: 900;
 	--font-trail-size: 17vh;
@@ -28,54 +28,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.demo-2 {
-	--color-text: #173b4e;
-    --color-bg: #00161f;
-    --color-link: #f53f73;
-    --color-link-hover: #f6fcff;
-    --color-slide-text: #f6fcff;
-    --color-nav: #fff;
-    --font-trail-weight: 700;
-	--font-trail-size: 15vh;
-	--font-trail-lheight: 0.85;
-	--font-trail-family: "Syncopate", sans-serif; 
-}
-
-.demo-3 {
-	--color-text: #d4115d;
-    --color-bg: #000000;
-    --color-link: #43b8d1;
-    --color-link-hover: #fff;
-    --color-slide-text: #43b8d1;
-    --color-nav: #fff;
-   	--font-trail-weight: 400;
-	--font-trail-size: 15vh;
-	--font-trail-lheight: 0.85;
-	--font-trail-family: "Goblin One", sans-serif; 
-}
-
-.demo-4 {
-	--color-slide-text: #6b12e2;
-	--color-text: #2e00ff;
-    --color-bg: #15131b;
-    --color-link: #ff2cff;
-    --color-nav: #fff;
-    --font-trail-weight: 700;
-	--font-trail-size: 15vh;
-	--font-trail-lheight: 0.85;
-	--font-trail-family: "Source Code Pro", sans-serif; 
-}
-
-.demo-5 {
-	--color-slide-text: #d7e7f1;
-    --color-link: #d61e68;
-    --color-text: #00baff;
-    --color-nav: #fff;
-    --font-trail-weight: 700;
-	--font-trail-size: 18vh;
-	--font-trail-lheight: 0.85;
-	--font-trail-family: "Syncopate", sans-serif; 
-}
 
 /* Page Loader */
 .js .loading::before {
